@@ -1,11 +1,13 @@
+sudo: false
 language: scala
 scala: 2.11.8
-script: "sbt coveralls"
+script: sbt coverage test coverageReport
+after_success: bash <(curl -s https://codecov.io/bash)
 deploy:
   provider: heroku
   app: laufer-primechecker
   strategy: git
-  api_key:
-    secure: Li030Um94jb36d+/ShacYbZrMbJLjOmBpnS/N1GDfnWSSiZrb5xcnx4BFeVqEcPlvOwAadpWH0MNj0ZOsvzwnVdYWs495PqLGFqFlqmj5ir5Cq5B58mqP0h3Fc8V4DZEQGRmOPqGk2FPDh/TLzJ1/JnhdqygmzIfWhbbxnyxQ9Q=
   on:
     repo: LoyolaChicagoCode/primenumbers-spray-scala
+  api_key:
+    secure: Li030Um94jb36d+/ShacYbZrMbJLjOmBpnS/N1GDfnWSSiZrb5xcnx4BFeVqEcPlvOwAadpWH0MNj0ZOsvzwnVdYWs495PqLGFqFlqmj5ir5Cq5B58mqP0h3Fc8V4DZEQGRmOPqGk2FPDh/TLzJ1/JnhdqygmzIfWhbbxnyxQ9Q=
