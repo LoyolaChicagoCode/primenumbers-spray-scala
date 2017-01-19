@@ -1,5 +1,13 @@
 [![Build Status](https://travis-ci.org/LoyolaChicagoCode/primenumbers-spray-scala.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/primenumbers-spray-scala) 
-[![Coverage Status](https://coveralls.io/repos/LoyolaChicagoCode/primenumbers-spray-scala/badge.png?branch=master)](https://coveralls.io/r/LoyolaChicagoCode/primenumbers-spray-scala?branch=master)
+[![codecov](https://codecov.io/gh/LoyolaChicagoCode/primenumbers-spray-scala/branch/master/graph/badge.svg)](https://codecov.io/gh/LoyolaChicagoCode/primenumbers-spray-scala)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3090cda0e2b48ddb9a8609fc763d741)](https://www.codacy.com/app/laufer/primenumbers-spray-scala)
+
+[![Stories in Ready](https://badge.waffle.io/LoyolaChicagoCode/primenumbers-spray-scala.png?label=ready&title=Ready)](http://waffle.io/LoyolaChicagoCode/primenumbers-spray-scala)
+[![Issue Stats](http://issuestats.com/github/LoyolaChicagoCode/primenumbers-spray-scala/badge/pr)](http://issuestats.com/github/LoyolaChicagoCode/primenumbers-spray-scala)
+[![Issue Stats](http://issuestats.com/github/LoyolaChicagoCode/primenumbers-spray-scala/badge/issue)](http://issuestats.com/github/LoyolaChicagoCode/primenumbers-spray-scala)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/LoyolaChicagoCode/primenumbers-spray-scala.svg)](http://isitmaintained.com/project/LoyolaChicagoCode/primenumbers-spray-scala "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/LoyolaChicagoCode/primenumbers-spray-scala.svg)](http://isitmaintained.com/project/LoyolaChicagoCode/primenumbers-spray-scala "Percentage of issues still open")
+
 
 # Learning Objectives
 
