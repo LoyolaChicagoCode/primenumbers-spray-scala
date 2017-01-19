@@ -1,6 +1,6 @@
 package edu.luc.etl.cs433.laufer.primenumbers
 
-import akka.actor.{ActorSystem, Props}
+import akka.actor.{ ActorSystem, Props }
 import akka.io.IO
 import spray.can.Http
 import akka.pattern.ask

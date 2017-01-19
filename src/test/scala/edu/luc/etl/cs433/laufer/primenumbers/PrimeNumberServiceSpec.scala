@@ -6,7 +6,7 @@ import spray.http._
 import StatusCodes._
 
 class PrimeNumberServiceSpec extends Specification with Specs2RouteTest
-  with PredicateCheckerService with PrimeNumberChecker {
+    with PredicateCheckerService with PrimeNumberChecker {
 
   def actorRefFactory = system
 

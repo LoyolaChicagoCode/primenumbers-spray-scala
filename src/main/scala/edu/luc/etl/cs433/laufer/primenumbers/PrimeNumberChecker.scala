@@ -9,7 +9,7 @@ trait PrimeNumberChecker extends PredicateOnBigInt {
       val half = i / 2
       var k = BigInt(2)
       while (k <= half) {
-    	if (i % k == 0) return false
+        if (i % k == 0) return false
         k += 1
       }
       true

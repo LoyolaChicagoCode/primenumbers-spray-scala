@@ -9,7 +9,7 @@ import spray.http.StatusCodes.NotFound
 // we don't implement our route structure directly in the service actor because
 // we want to be able to test it independently, without having to spin up an actor
 class PrimeNumberServiceActor extends Actor
-  with PredicateCheckerService with PrimeNumberChecker {
+    with PredicateCheckerService with PrimeNumberChecker {
 
   // the HttpService trait defines only one abstract member, which
   // connects the services environment to the enclosing actor or test
@@ -20,7 +20,6 @@ class PrimeNumberServiceActor extends Actor
   // or timeout handling
   def receive = runRoute(demoRoute)
 }
-
 
 // this trait defines our service behavior independently from the service actor
 trait PredicateCheckerService extends HttpService with PredicateOnBigInt {
