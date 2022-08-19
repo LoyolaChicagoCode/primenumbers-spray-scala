@@ -2,7 +2,7 @@ organization  := "edu.luc.etl"
 
 version       := "0.0.3"
 
-scalaVersion  := "2.11.8"
+scalaVersion  := "2.11.12"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
